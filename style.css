@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 6rem;
+    background-color: #000824;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+#logo{
+    margin-top: 8px;
+    
+    
+}
+#logo h2{
+    font-weight: 700;
+    color: #ffff;
+}
+
+#logo span{
+    color: #dd0040;
+}
+#find {
+    
+
+}
+
+#search{
+    border: 2px solid white;
+    background-color: transparent;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 0.4rem;
+    position: relative;
+    
+}
+#search::placeholder {
+    
+  }
+
+#search:focus{
+    outline: none;
+    color: #ffff;
+}
+
+#search input{
+    background-color: black;
+
+}
+
+#p {
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffff;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    transition: transform 0.4s;
+}
+#p:hover{
+    transform: scale(1.05);
+}
+
+#p:active{
+    color: #000824;
+    background-color: white;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+main {
+    background-color: #000824;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+#tags{
+    flex-wrap: wrap;
+    background-color: #000824;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: box-shadow 0.5s;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+.tag:hover{
+    transform: scale(1.05);
+}
+
+.tag{
+    max-width: 100%;
+    padding: 10px 20px 10px 20px;
+    background-color: #dd0040;
+    color: white;
+    border-radius: 12px;
+    margin: 10px;
+    transition: box-shadow 0.5s;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+
+.film {
+    width: 300px;
+    height: 400px;
+    margin: 4rem 4rem 10rem 4rem;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    transition: box-shadow 0.5s;
+    transition: transform 0.4s;
+    cursor: pointer;
+    
+}
+.film:hover{
+    transform: scale(1.05);
+}
+
+.film img {
+    width: 100%;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    
+}
+
+.deskripsi {
+    background-color: #1c364f;
+    color: #ffff;
+    margin-top: -15px;
+    padding: 30px 15px 15px 15px;
+    border-radius: 10px;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.deskripsi p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#rating {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+#bintang {
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+footer{
+    width: 100%;
+    height: 155px;
+    background-color: #1c364f;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+#kontak ul{
+    display: flex;
+    padding: 16px;
+}
+
+#kontak ul li{
+    padding: 0 15px 0px 15px;
+
+}
+
+#kontak ul li i{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#kontak p{
+    padding: 10px;
+    color: #ffffff;
+}
+
+#kontak span{
+    font-weight: 550;
+}
+
+section{
+    display: flex;
+    height: 100px;
+    background-color: #000824;
+}
