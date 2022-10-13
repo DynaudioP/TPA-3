@@ -142,6 +142,7 @@ function tampil(film){
             </div> 
             <div class="deskripsi">
                 <h4>${movie.title}</h4>
+                <p>${movie.release_date}</p>
                 <div id="rating">
                     <i class="fa-regular fa-star" id="bintang"></i>
                     <p>${movie.vote_average}</p>

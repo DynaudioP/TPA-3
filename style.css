@@ -158,17 +158,18 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+    margin-bottom: 0px;
 }
 
 #rating {
     display: flex;
     justify-content: flex-end;
-    margin-top: 30px;
+    
 }
 
 #bintang {
     margin-right: 4px;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 
 footer{
